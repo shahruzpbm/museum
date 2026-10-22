@@ -1,0 +1,160 @@
+{
+  "museum": {
+    "id": "for-you",
+    "name": "Музей для тебя",
+    "subtitle": "интерактивная галерея наших воспоминаний",
+    "theme": "gift",
+    "welcomeTitle": "Добро пожаловать в наш музей",
+    "welcomeText": "Этот музей создан для одного человека. Каждый зал — глава нашей истории: фотографии, видео, письма и места, куда мы мечтали попасть. Иди вперёд, смотри по сторонам и нажимай E у картин.",
+    "greeting": "Рады видеть вас здесь, {name}. Прогуляйтесь по залам в своём удовольствии.",
+    "finalTitle": "Для тебя",
+    "finalMessage": "Спасибо, что дошёл(ла) до самого конца. Этот музей — маленькая часть того, что я чувствую. Каждая фотография здесь — момент, который я хочу помнить. А впереди у нас ещё столько залов, которые мы заполним вместе.",
+    "confetti": true,
+    "accentColor": "#ff6fa5"
+  },
+  "settings": {
+    "player": { "walkSpeed": 3.4, "runSpeed": 6.2, "radius": 0.38, "eyeHeight": 1.62 },
+    "camera": { "distance": 4.6, "minDistance": 1.6, "maxDistance": 9, "fov": 62, "sensitivity": 1 },
+    "audio": { "musicVolume": 0.35, "stepsVolume": 0.5 },
+    "quality": { "shadows": true, "pixelRatio": 1.6, "lazyDistance": 26 },
+    "multiplayer": { "enabled": true, "room": "for-you", "tickRate": 12 }
+  },
+  "rooms": {
+    "lobby": { "title": "Вестибюль", "subtitle": "начало путешествия", "floor": 0, "type": "lobby" },
+    "history": { "title": "Наша история", "subtitle": "главный зал", "floor": 0, "type": "gallery" },
+    "timeline": { "title": "Таймлайн", "subtitle": "коридор времени", "floor": 0, "type": "timeline" },
+    "lounge": { "title": "Лаунж-кафе", "subtitle": "место для отдыха", "floor": 0, "type": "lounge" },
+    "sculpture": { "title": "Зал скульптур", "subtitle": "объекты и формы", "floor": 0, "type": "sculpture" },
+    "video": { "title": "Видеозал", "subtitle": "большой экран", "floor": 0, "type": "video" },
+    "black": { "title": "Чёрный зал", "subtitle": "точечный свет", "floor": 0, "type": "black" },
+    "guestbook": { "title": "Гостевая книга", "subtitle": "оставьте записку", "floor": 0, "type": "guestbook" },
+    "atrium": { "title": "Атриум", "subtitle": "сердце музея", "floor": 0, "type": "atrium" },
+    "mezzanine": { "title": "Мезонин", "subtitle": "галерея второго этажа", "floor": 1, "type": "mezzanine" },
+    "music": { "title": "Музыкальный зал", "subtitle": "винил и мелодии", "floor": 1, "type": "music" },
+    "travels": { "title": "Путешествия", "subtitle": "города и дороги", "floor": 1, "type": "gallery" },
+    "letters": { "title": "Зал писем", "subtitle": "слова, которые остаются", "floor": 1, "type": "letters" },
+    "immersive": { "title": "Иммерсивная комната", "subtitle": "проекция на стены", "floor": 1, "type": "immersive" },
+    "cinema": { "title": "Кинотеатр", "subtitle": "второй видеозал", "floor": 1, "type": "video" },
+    "terrace": { "title": "Панорамная терраса", "subtitle": "вид на город", "floor": 1, "type": "terrace" },
+    "final": { "title": "Для тебя", "subtitle": "финальный зал", "floor": 1, "type": "final" }
+  },
+  "emotes": [
+    { "id": "wave", "icon": "👋", "label": "Помахать" },
+    { "id": "dance", "icon": "💃", "label": "Танец" },
+    { "id": "hearts", "icon": "❤️", "label": "Сердечки" },
+    { "id": "clap", "icon": "👏", "label": "Аплодисменты" },
+    { "id": "spin", "icon": "🔄", "label": "Кружиться" },
+    { "id": "kiss", "icon": "😘", "label": "Поцелуй" },
+    { "id": "joy", "icon": "😂", "label": "Смех" },
+    { "id": "think", "icon": "🤔", "label": "Задуматься" }
+  ],
+  "guestbook": [
+    { "author": "Аня", "text": "Самый красивый музей, в котором я была. Спасибо за эти моменты." },
+    { "author": "Макс", "text": "Зал путешествий — мой фаворит. Когда едем дальше?" },
+    { "author": "Лена", "text": "Плакала у зала писем. Очень трогательно." },
+    { "author": "Даниэль", "text": "Best museum in the world. See you on the terrace at sunset." }
+  ],
+  "timeline": [
+    { "year": "День 1", "title": "Первая встреча", "text": "Мы ещё не знали, что из этой встречи вырастет целый музей." },
+    { "year": "Месяц 1", "title": "Первое путешествие", "text": "Дорога, музыка в машине и чувство, что дом — это место рядом." },
+    { "year": "Год 1", "title": "365 дней", "text": "Тысяча маленьких моментов: утро, кофе, смех, дождь за окном." },
+    { "year": "Сегодня", "title": "Этот музей", "text": "Мы построили место, где все эти дни можно прожить заново." },
+    { "year": "Завтра", "title": "Новые залы", "text": "Самое интересное ещё впереди — и стены пока пустые." }
+  ],
+  "letters": [
+    {
+      "title": "Письмо первое",
+      "text": "Я не мастер красивых слов, но я умею помнить. Помню, как ты смеялся(ась) в тот вечер, как мы заблудились и это оказалось лучшей частью поездки. Я помню твои любимые песни и то, как ты смотришь на свет. Если бы я мог(ла) сохранить одно чувство навсегда — я бы сохранил(а) это."
+    },
+    {
+      "title": "Письмо второе",
+      "text": "Говорят, музеи хранят то, что важно для всех. А этот — хранит то, что важно только для нас. Каждая фотография здесь — доказательство, что счастье бывает простым: прогулка, разговор, тишина, в которой хорошо."
+    },
+    {
+      "title": "Письмо третье",
+      "text": "Если ты читаешь это, значит, ты прошёл(ла) через весь музей. Спасибо, что идёшь со мной. Впереди ещё столько непройденных дорог — и я хочу пройти их все именно с тобой."
+    }
+  ],
+  "music": {
+    "trackTitle": "Наша пластинка",
+    "trackSubtitle": "крути громче",
+    "trackUrl": "",
+    "ambient": true
+  },
+  "videos": [
+    {
+      "id": "video-main",
+      "room": "video",
+      "title": "Наш фильм",
+      "description": "Собранные воедино моменты года. Нажмите на экран, чтобы включить звук.",
+      "src": "",
+      "fallback": "aurora"
+    },
+    {
+      "id": "video-cinema",
+      "room": "cinema",
+      "title": "Кинотеатр: короткий метр",
+      "description": "Второй экран музея. Садитесь поудобнее на ступенчатые скамьи.",
+      "src": "",
+      "fallback": "waves"
+    }
+  ],
+  "exhibits": [
+    { "id": "e01", "room": "history", "title": "Первый вечер", "description": "Всё началось здесь. Тот самый вечер, после которого обычные дни стали особенными.", "src": "exhibits/photo-01.jpg", "year": "глава 1" },
+    { "id": "e02", "room": "history", "title": "Утро с кофе", "description": "Самый обычный завтрак, ставший одним из любимых воспоминаний.", "src": "exhibits/photo-02.jpg", "year": "глава 1" },
+    { "id": "e03", "room": "history", "title": "Дорога домой", "description": "Мы шли пешком, чтобы продлить разговор. Тогда я понял(а), что дом — это рядом.", "src": "exhibits/photo-03.jpg", "year": "глава 1" },
+    { "id": "e04", "room": "history", "title": "Дождь в мае", "description": "Мы промокли, смеялись и решили, что зонты — для скучных людей.", "src": "exhibits/photo-04.jpg", "year": "глава 1" },
+    { "id": "e05", "room": "history", "title": "Твой смех", "description": "Звук, который делает любой день лучше. Сохранён в этой раме навсегда.", "src": "exhibits/photo-05.jpg", "year": "глава 1" },
+    { "id": "e06", "room": "history", "title": "Летний свет", "description": "Солнце, длинные тени и ощущение бесконечного вечера.", "src": "exhibits/photo-06.jpg", "year": "глава 1" },
+    { "id": "e07", "room": "history", "title": "Кухня, 23:40", "description": "Разговоры на кухне, которые заканчивались только рассветом.", "src": "exhibits/photo-07.jpg", "year": "глава 2" },
+    { "id": "e08", "room": "history", "title": "На крыше", "description": "Город внизу, мы наверху. Один из тех моментов, когда время останавливается.", "src": "exhibits/photo-08.jpg", "year": "глава 2" },
+    { "id": "e09", "room": "history", "title": "Тихий полдень", "description": "Книга, плед и ты рядом. Больше ничего не нужно было.", "src": "exhibits/photo-09.jpg", "year": "глава 2" },
+    { "id": "e10", "room": "history", "title": "Рождественский огонь", "description": "Гирлянды, горячий шоколад и планы на следующий год.", "src": "exhibits/photo-10.jpg", "year": "глава 2" },
+    { "id": "e11", "room": "history", "title": "Танец на кухне", "description": "Никакой музыки — только мы и старая пластинка в голове.", "src": "exhibits/photo-11.jpg", "year": "глава 2" },
+    { "id": "e12", "room": "history", "title": "Море памяти", "description": "Волны, ветер и твоя рука в моей. Хочу вернуться туда ещё раз.", "src": "exhibits/photo-12.jpg", "year": "глава 2" },
+    { "id": "e13", "room": "travels", "title": "Город огней", "description": "Мы приехали ночью и весь город казался сценой, поставленной специально для нас.", "src": "exhibits/photo-13.jpg", "year": "поездка 1" },
+    { "id": "e14", "room": "travels", "title": "Северное шоссе", "description": "Тысяча километров, один плейлист и ноль усталости.", "src": "exhibits/photo-14.jpg", "year": "поездка 1" },
+    { "id": "e15", "room": "travels", "title": "Старый мост", "description": "Мы придумывали истории про каждого прохожего. Помнишь?", "src": "exhibits/photo-15.jpg", "year": "поездка 2" },
+    { "id": "e16", "room": "travels", "title": "Горы на рассвете", "description": "Поднялись в темноте, чтобы увидеть, как солнце красит снег в розовый.", "src": "exhibits/photo-16.jpg", "year": "поездка 2" },
+    { "id": "e17", "room": "travels", "title": "Кофейня на углу", "description": "Лучший кофе в городе — и лучшая компания.", "src": "exhibits/photo-17.jpg", "year": "поездка 2" },
+    { "id": "e18", "room": "travels", "title": "Карта мечтаний", "description": "Мы отметили булавками места, куда поедем. Половина уже закрыта.", "src": "exhibits/photo-18.jpg", "year": "поездка 3" },
+    { "id": "e19", "room": "travels", "title": "Маяк", "description": "Свет, который видно за мили. Как и твоя поддержка.", "src": "exhibits/photo-19.jpg", "year": "поездка 3" },
+    { "id": "e20", "room": "travels", "title": "Поезд в 6:15", "description": "Самый красивый рассвет случился в вагоне поезда.", "src": "exhibits/photo-20.jpg", "year": "поездка 3" },
+    { "id": "e21", "room": "black", "title": "Силуэт", "description": "Игра света и тени. Иногда достаточно одного контура, чтобы всё понять.", "src": "exhibits/photo-21.jpg", "year": "ч/б" },
+    { "id": "e22", "room": "black", "title": "Профиль", "description": "Портрет, снятый на закате у окна.", "src": "exhibits/photo-22.jpg", "year": "ч/б" },
+    { "id": "e23", "room": "black", "title": "Тишина", "description": "Кадр, в котором нет слов — и они не нужны.", "src": "exhibits/photo-23.jpg", "year": "ч/б" },
+    { "id": "e24", "room": "black", "title": "Свет сквозь шторы", "description": "Утро, которое помнится по полоскам света.", "src": "exhibits/photo-24.jpg", "year": "ч/б" },
+    { "id": "e25", "room": "black", "title": "Двое", "description": "Один кадр — целая история.", "src": "exhibits/photo-25.jpg", "year": "ч/б" },
+    { "id": "e26", "room": "black", "title": "После дождя", "description": "Асфальт как зеркало, город как декорация.", "src": "exhibits/photo-26.jpg", "year": "ч/б" },
+    { "id": "e27", "room": "mezzanine", "title": "Вид сверху", "description": "Иногда, чтобы увидеть главное, нужно подняться выше.", "src": "exhibits/photo-27.jpg", "year": "мезонин" },
+    { "id": "e28", "room": "mezzanine", "title": "Балюстрада", "description": "Место, откуда видно всю нашу историю одним взглядом.", "src": "exhibits/photo-28.jpg", "year": "мезонин" },
+    { "id": "e29", "room": "mezzanine", "title": "Лестница", "description": "Каждая ступень — как новая глава.", "src": "exhibits/photo-29.jpg", "year": "мезонин" },
+    { "id": "e30", "room": "lobby", "title": "Приветствие", "description": "Добро пожаловать. Начнём?", "src": "exhibits/photo-30.jpg", "year": "старт" },
+    { "id": "e31", "room": "lounge", "title": "Вечер в кафе", "description": "Десерт на двоих и ни одного плана на завтра.", "src": "exhibits/photo-31.jpg", "year": "лаунж" },
+    { "id": "e32", "room": "lounge", "title": "Окно в сад", "description": "Место, где мы решали все вопросы мира.", "src": "exhibits/photo-32.jpg", "year": "лаунж" },
+    { "id": "e33", "room": "guestbook", "title": "Стена записок", "description": "Каждый посетитель оставляет здесь частичку себя.", "src": "exhibits/photo-33.jpg", "year": "гостевая" },
+    { "id": "e34", "room": "immersive", "title": "Сон", "description": "Проекция воспоминаний на стены комнаты.", "src": "exhibits/photo-34.jpg", "year": "иммерсив" },
+    { "id": "e35", "room": "immersive", "title": "Северное сияние", "description": "Свет, который танцует. Как и мы.", "src": "exhibits/photo-35.jpg", "year": "иммерсив" },
+    { "id": "e36", "room": "cinema", "title": "Стоп-кадр", "description": "Из нашего короткого метра.", "src": "exhibits/photo-36.jpg", "year": "кино" },
+    { "id": "e37", "room": "terrace", "title": "Город ночью", "description": "Панорама, ради которой стоит подняться на второй этаж.", "src": "exhibits/photo-37.jpg", "year": "терраса" },
+    { "id": "e38", "room": "terrace", "title": "Закат на террасе", "description": "Лучшее время суток — когда город загорается.", "src": "exhibits/photo-38.jpg", "year": "терраса" },
+    { "id": "e39", "room": "music", "title": "Виниловая полка", "description": "Пластинки, которые звучат как наши воспоминания.", "src": "exhibits/photo-39.jpg", "year": "музыка" },
+    { "id": "e40", "room": "music", "title": "Наушники на двоих", "description": "Одна песня — два сердца.", "src": "exhibits/photo-40.jpg", "year": "музыка" },
+    { "id": "e41", "room": "sculpture", "title": "Форма чувства", "description": "Абстрактная скульптура — как эмоция, которой нет слов.", "src": "", "year": "объект" },
+    { "id": "e42", "room": "final", "title": "Сердце музея", "description": "Последний экспонат — не картина, а чувство.", "src": "exhibits/photo-42.jpg", "year": "финал" },
+    { "id": "e43", "room": "letters", "title": "Конверт", "description": "Письмо, которое можно прочитать только здесь.", "src": "exhibits/photo-43.jpg", "year": "письма" },
+    { "id": "e44", "room": "history", "title": "Новый год", "description": "Мандарины, гирлянды и ожидание чуда.", "src": "exhibits/photo-44.jpg", "year": "глава 3" },
+    { "id": "e45", "room": "history", "title": "Велосипедная прогулка", "description": "Ветер, скорость и твой смех сзади.", "src": "exhibits/photo-45.jpg", "year": "глава 3" },
+    { "id": "e46", "room": "history", "title": "Пикник", "description": "Одеяло, фрукты и облака, которые мы превращали в зверей.", "src": "exhibits/photo-46.jpg", "year": "глава 3" },
+    { "id": "e47", "room": "history", "title": "Ночь у костра", "description": "Искры улетают вверх — как наши мечты.", "src": "exhibits/photo-47.jpg", "year": "глава 3" },
+    { "id": "e48", "room": "history", "title": "Портрет в золоте", "description": "Осень пишет лучшие портреты.", "src": "exhibits/photo-48.jpg", "year": "глава 3" },
+    { "id": "e49", "room": "travels", "title": "Аэропорт, 4:30", "description": "Усталые и счастливые — мы летели к новым впечатлениям.", "src": "exhibits/photo-49.jpg", "year": "поездка 4" },
+    { "id": "e50", "room": "travels", "title": "Крыша отеля", "description": "Город-лабиринт с высоты птичьего полёта.", "src": "exhibits/photo-50.jpg", "year": "поездка 4" }
+  ],
+  "sculptures": [
+    { "id": "s1", "title": "Волна", "description": "Бронзовая волна — символ наших перемен.", "shape": "torusKnot", "color": "#c9a26b" },
+    { "id": "s2", "title": "Планета", "description": "Маленькая планета на постаменте.", "shape": "icosahedron", "color": "#8fb8c9" },
+    { "id": "s3", "title": "Кольцо", "description": "Кольцо, которое не имеет начала.", "shape": "torus", "color": "#e0b0c4" },
+    { "id": "s4", "title": "Узел", "description": "Две линии, переплетённые навсегда.", "shape": "knot", "color": "#b0b0b8" }
+  ]
+}
